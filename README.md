@@ -8,5 +8,5 @@ docker build -t python-socket-docker-hello-world .
 
 ## Running the server image
 ```bash
-docker run -P python-socket-docker-hello-world
+docker run -p 2222 python-socket-docker-hello-world
 ```
