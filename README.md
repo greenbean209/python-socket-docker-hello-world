@@ -13,3 +13,8 @@ docker build -t python-socket-docker-hello-world .
 ```bash
 docker run -p 2222:2222 python-socket-docker-hello-world
 ```
+
+## Running the client
+```bash
+python ./hello-world-client.py
+```
