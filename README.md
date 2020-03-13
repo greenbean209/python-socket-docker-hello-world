@@ -16,5 +16,5 @@ docker run -p 2222:2222 python-socket-docker-hello-world
 
 ## Running the client
 ```bash
-python ./hello-world-client.py
+python ./hello-_world_client.py
 ```
