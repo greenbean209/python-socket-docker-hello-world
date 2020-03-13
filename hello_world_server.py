@@ -27,7 +27,10 @@ while True:
 
     # Iterate over notified sockets
     for notified_socket in read_sockets:
+        # Accept connection from client
         clientsocket, clientaddress = notified_socket.accept()
         print(f"Connection from {clientaddress} has been establised!")
+        # Send message to client
         clientsocket.send(bytes("Hello World", "utf-8"))
+        # Close the connection
         clientsocket.close()
